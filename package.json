@@ -1,6 +1,6 @@
 {
   "name": "vanilla-typescript",
-  "version": "0.2.2",
+  "version": "0.2.6",
   "description": "",
   "main": "index.ts",
   "scripts": {
