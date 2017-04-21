@@ -6,8 +6,7 @@
  * Try and modify as little of the exiting dom's html as possible
  */
 
-
 export interface IAttachableComponent {
-  attach: ()=>void
-  detach: ()=>void
+  attach: () => void
+  detach: () => void
 }

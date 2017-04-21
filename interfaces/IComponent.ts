@@ -7,6 +7,6 @@
  */
 
 export interface IComponent {
-  destroy: ()=>void
-  show: ()=>void
+  destroy: () => void
+  show: () => void
 }
