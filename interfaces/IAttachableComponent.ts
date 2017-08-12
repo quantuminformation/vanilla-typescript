@@ -7,6 +7,6 @@
  */
 
 export interface IAttachableComponent {
-  attach: (hostElement: string) => void
-  detach: () => void
+  attach: (hostElement: string) => Promise
+  detach: () => Promise
 }
