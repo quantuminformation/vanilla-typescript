@@ -13,25 +13,10 @@ Come and join us in the Vanilla-javascript&typescript [discord server](https://d
 
 this will allow you to do this when creating a component:
 
-```js
 
-import {IComponent} from 'vanilla-typescript'
-
-export default class SmartTerminal implements IComponent{
-
-constructor(contentFunction:()=>void,onDestroyFunction:()=>void){
-
-}
-
-  show():void{
-
-  },
-
-  destroy():void {
-    //todo
-  }
-
-}
-
-```
+# Examples of usage
+See:
+ * [solar-popup](https://github.com/quantumjs/solar-popup/blob/master/src/SolarPopup.ts)
+ * [smart-terminal](https://github.com/quantumjs/smart-terminal/blob/master/src/SmartTerminal.ts)
+ * [vanilla-typescript-component-boilerplate](https://github.com/QuantumInformation/vanilla-typescript-component-boilerplate/blob/master/src/TypeScriptComponent.ts)
 
