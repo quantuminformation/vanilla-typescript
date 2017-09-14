@@ -1,11 +1,12 @@
 {
   "name": "vanilla-typescript",
-  "version": "0.4.3",
+  "version": "0.4.7",
   "description": "",
   "main": "index.ts",
   "scripts": {
     "test": "npm run lint",
-    "lint": "tslint **/*.ts"
+    "lint": "tslint **/*.ts",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   "devDependencies": {
     "pre-commit": "^1.2.2",
     "tslint": "^5.1.0",
-    "tslint-config-standard": "^5.0.2",
+    "tslint-config-standard": "^6.0.1",
     "typescript": "^2.2.2"
   },
   "pre-commit": "test"
