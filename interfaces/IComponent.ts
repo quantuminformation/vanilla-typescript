@@ -17,5 +17,11 @@ export interface IComponent {
    * Add your component to your document. You should set up your listeners here.
    * @returns {Promise<void>}
    */
-  show: () => Promise<void>
+
+  /**
+   *
+   * @param {string} hostElement if this is specified the hostElement works in relation to this parentElement instead of document.body
+   * @returns {Promise<void>}
+   */
+  show: (parentElement?: HTMLElement) => Promise<void>
 }

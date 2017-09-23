@@ -1,10 +1,10 @@
 {
   "name": "vanilla-typescript",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "npm run lint",
+    "test": "npm run lint && tsc",
     "lint": "tslint **/*.ts",
     "tsc": "tsc"
   },

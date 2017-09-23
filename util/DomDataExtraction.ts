@@ -7,8 +7,7 @@
  */
 export function getFormValues (form: HTMLElement): string {
   let data = {}
-  // let inputs: (HTMLInputElement | HTMLTextAreaElement)[] = Array.from(form.querySelectorAll('input,textarea'))
-  let inputs = Array.from(form.querySelectorAll('input,textarea'))
+  let inputs: (HTMLInputElement | HTMLTextAreaElement)[] = Array.from(form.querySelectorAll('input,textarea')) as (HTMLInputElement | HTMLTextAreaElement)[]
   inputs.forEach(input => {
     data[input.name] = input.value
   })
