@@ -22,5 +22,5 @@ export let KeyCodes = {
   k: 75,
   m: 77,
 
-  WIN_or_CMD: 91  // to detect cmd on key up use this, on keydown you can use event.metaKey
+  WIN_or_CMD: 91 // to detect cmd on key up use this, on keydown you can use event.metaKey
 }

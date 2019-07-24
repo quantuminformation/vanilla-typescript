@@ -7,7 +7,6 @@
  */
 
 export interface IComponent {
-
   /**
    * Destory your component in this method, you should remove all listeners that this sets up on your document
    * @returns {Promise<void>}

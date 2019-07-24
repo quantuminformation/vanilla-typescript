@@ -1,29 +1,25 @@
 {
   "name": "vanilla-typescript",
-  "version": "0.4.8",
+  "version": "0.5.0",
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "npm run lint && tsc",
-    "lint": "tslint **/*.ts",
-    "tsc": "tsc"
+    "test": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quantumjs/vanilla-typescript.git"
+    "url": "git+https://github.com/quantuminformation/vanilla-typescript.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/quantumjs/vanilla-typescript/issues"
+    "url": "https://github.com/quantuminformation/vanilla-typescript/issues"
   },
-  "homepage": "https://github.com/quantumjs/vanilla-typescript#readme",
+  "homepage": "https://github.com/quantuminformation/vanilla-typescript#readme",
   "devDependencies": {
-    "pre-commit": "^1.2.2",
-    "tslint": "^5.1.0",
-    "tslint-config-standard": "^6.0.1",
-    "typescript": "^2.2.2"
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
   },
   "pre-commit": "test"
 }
