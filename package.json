@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "tsc"
+    "test": "tsc && shx rm -rf testOutput"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/quantuminformation/vanilla-typescript#readme",
   "devDependencies": {
     "prettier": "^1.18.2",
+    "shx": "^0.3.2",
     "typescript": "^3.5.3"
   },
   "pre-commit": "test"

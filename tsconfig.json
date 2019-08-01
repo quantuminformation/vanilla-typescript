@@ -1,6 +1,9 @@
 {
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "compilerOptions": {
+    "outDir": "testOutput"
+  }
 }
 
