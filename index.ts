@@ -1,6 +1,6 @@
-export { IComponent } from './interfaces/IComponent'
-export { KeyCodes } from './events/KeyCodes'
-export { ApplicationEvents } from './events/ApplicationEvents'
-export { conversions } from './conversions'
-export { Dimensions } from './types/CommonTypes'
-export * from './util/DomDataExtraction'
+export { IComponent } from "./interfaces/IComponent"
+export { KeyCodes } from "./events/KeyCodes"
+export { ApplicationEvents } from "./events/ApplicationEvents"
+export { conversions } from "./conversions"
+export { Dimensions, OptionalDimensions } from "./types/CommonTypes"
+export * from "./util/DomDataExtraction"
